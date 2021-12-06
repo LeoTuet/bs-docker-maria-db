@@ -7,4 +7,4 @@ To enter the MariaDB shell you first need to enter the docker container.
 
 docker-compose exec mariadb sh // to start docker in sh
 
-mysql -u admin -p //Log in as admin
+mysql -u root -p //Log in as admin
