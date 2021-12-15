@@ -1,5 +1,5 @@
-# MariaDB-docker-compose
-A MariaDB Docker-Compose
+# MariaDB
+A MariaDB Docker-Compose File repo
 
 Please replace the Password and User Env vars with better values
 
