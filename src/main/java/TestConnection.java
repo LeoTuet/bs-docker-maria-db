@@ -5,7 +5,7 @@ import java.sql.SQLException;
 
 public class TestConnection {
     public static void main(final String[] args) throws SQLException {
-        final Connection connection = DriverManager.getConnection("jdbc:mariadb://xxx");
+        final Connection connection = DriverManager.getConnection("jdbc:mariadb://localhost:3306", "root", "admin" );
 
         final DatabaseMetaData meta = connection.getMetaData();
 
